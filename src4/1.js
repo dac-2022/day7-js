@@ -10,3 +10,9 @@ let fun = () => {};
 // DESTRUNCTING
 let {} = {};
 let [] = [];
+let { a, b } = {};
+let [c, d] = [];
+
+// CLONING
+let ref2 = { ...ref };
+let list2 = [...list];
